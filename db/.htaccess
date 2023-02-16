@@ -1,0 +1,5 @@
+RewriteEngine On
+
+<FilesMatch ".json$">
+deny from all
+</FilesMatch>
